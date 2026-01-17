@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <div class="display-box">
+                <input type="text" id="display" placeholder="Enter expression..." readonly>
+            </div>
+            <div class="input-box">
+                <input type="text" id="input" placeholder="e.g., 15 + 3 * 2" autofocus>
+            </div>
+            <div class="button-box">
+                <button class="btn" id="calculateBtn">Calculate</button>
+                <button class="btn clear" id="clearBtn">Clear</button>
+            </div>
+            <div class="result-box">
+                <p>Result: <span id="result">-</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
